@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.redlimerl.mcsr.alldeaths.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ServerPlayerEntityMixin",
+    "accessor.DamageTrackerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "all_deaths",
+  "version": "${version}",
+  "name": "AllDeathsExtension",
+  "description": "",
+  "authors": [
+    "RedLime"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.redlimerl.mcsr.alldeaths.AllDeaths"
+    ],
+    "speedrunigt": [
+      "com.redlimerl.mcsr.alldeaths.AllDeathsImpl"
+    ]
+  },
+  "mixins": [
+    "all_deaths.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "minecraft": "1.16.1",
+    "speedrunigt": ">=7.0"
+  }
+}
