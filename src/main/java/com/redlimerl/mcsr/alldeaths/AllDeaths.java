@@ -2,7 +2,7 @@ package com.redlimerl.mcsr.alldeaths;
 
 
 import com.redlimerl.mcsr.alldeaths.mixin.accessor.DamageTrackerAccessor;
-import com.redlimerl.speedrunigt.timer.running.RunCategory;
+import com.redlimerl.speedrunigt.timer.category.RunCategory;
 import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.entity.damage.DamageRecord;
 import net.minecraft.entity.damage.DamageSource;
